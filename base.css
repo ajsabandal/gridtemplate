@@ -6,27 +6,31 @@ body {
 
 header, footer {
     text-align: center;
-}
-.container {
-
+    background-color: #DFCBD4; 
+    color: #45425c;
+    text-transform: uppercase;
 }
 
 .main {
     display: grid;
     grid-template-columns: 250px 250px;
     grid-template-rows: repeat(3, 450px);
-    grid-gap: 20px;
+    grid-gap: 10px;
     margin-top: 44px;
-    grid-auto-rows: 200px;
+    margin-bottom: 20x;
+    grid-auto-flow: column;
+    grid-auto-columns: 100px;
+    grid-auto-rows: 500px;
     justify-content: center;
+    justify-items: left;
     align-items: stretch;
-    align-content: center;
-    grid-auto-row: 500px;
+    
+
   }
 
 .grid {
-    background-color: white;
+    background-color: #dfcbd4;
     color: black;
     border-radius: 5px;
-    border: 2px dodgerblue solid;
   }
+
